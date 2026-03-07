@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore SmartStudy AI features - AI timetable generation, smart deadline tracking, adaptive revision plans, and performance analytics for university students.">
+    <meta name="keywords" content="AI study planner features, smart timetable generator, student deadline tracker, revision planner, study analytics tool, AI productivity features">
+    <meta name="author" content="SmartStudy AI">
+    <meta name="robots" content="index, follow">
+    <title>Features | SmartStudy AI - AI-Powered Study Planner</title>
+
+    <!-- Google tag (gtag.js) - Replace G-XXXXXXXXXX with your actual Measurement ID -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon"><i class="fas fa-brain"></i></div>
+                <span>SmartStudy <span class="logo-ai">AI</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html" class="active">Features</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="pricing.html" class="btn btn-primary btn-nav">Get Student Discount</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <div class="container">
+            <span class="section-badge">Features</span>
+            <h1>Powerful AI Tools Built for <span class="gradient-text">Student Success</span></h1>
+            <p>Discover how SmartStudy AI helps you manage deadlines, create study plans, and track your academic performance — all with the power of artificial intelligence.</p>
+        </div>
+    </section>
+
+    <!-- Feature 1: AI Timetable -->
+    <section class="feature-detail" id="timetable">
+        <div class="container">
+            <div class="feature-detail-grid">
+                <div class="feature-detail-content">
+                    <div class="feature-icon-large icon-blue">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h2>AI Timetable Generation</h2>
+                    <p>SmartStudy AI's intelligent timetable generator analyses your coursework deadlines, exam dates, module schedules, and personal study preferences to create a fully optimised weekly study plan. Unlike static planners, our AI continuously adapts your schedule based on changing priorities and workload.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Automatically allocates study time based on deadline urgency</li>
+                        <li><i class="fas fa-check-circle"></i> Considers your preferred study hours and break patterns</li>
+                        <li><i class="fas fa-check-circle"></i> Balances workload across subjects to prevent burnout</li>
+                        <li><i class="fas fa-check-circle"></i> Adjusts dynamically when new tasks are added</li>
+                        <li><i class="fas fa-check-circle"></i> Syncs with your university calendar for seamless planning</li>
+                    </ul>
+                    <a href="pricing.html" class="btn btn-primary">Try It Free <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-detail-visual">
+                    <div class="feature-mockup">
+                        <div class="mockup-header">
+                            <div class="preview-dots"><span></span><span></span><span></span></div>
+                            <span>Weekly Timetable</span>
+                        </div>
+                        <div class="timetable-mockup">
+                            <div class="timetable-row">
+                                <div class="timetable-day">Mon</div>
+                                <div class="timetable-block blue" style="width:60%">Digital Marketing (2h)</div>
+                            </div>
+                            <div class="timetable-row">
+                                <div class="timetable-day">Tue</div>
+                                <div class="timetable-block green" style="width:45%">Python Lab (1.5h)</div>
+                                <div class="timetable-block purple" style="width:35%">Database (1h)</div>
+                            </div>
+                            <div class="timetable-row">
+                                <div class="timetable-day">Wed</div>
+                                <div class="timetable-block orange" style="width:75%">FYP Research (2.5h)</div>
+                            </div>
+                            <div class="timetable-row">
+                                <div class="timetable-day">Thu</div>
+                                <div class="timetable-block blue" style="width:40%">Essay Draft (1.5h)</div>
+                                <div class="timetable-block green" style="width:40%">Revision (1.5h)</div>
+                            </div>
+                            <div class="timetable-row">
+                                <div class="timetable-day">Fri</div>
+                                <div class="timetable-block purple" style="width:55%">Group Project (2h)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature 2: Deadline Tracking -->
+    <section class="feature-detail feature-alt" id="deadlines">
+        <div class="container">
+            <div class="feature-detail-grid reverse">
+                <div class="feature-detail-content">
+                    <div class="feature-icon-large icon-green">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h2>Smart Deadline Tracking</h2>
+                    <p>Never miss another submission deadline. SmartStudy AI's intelligent tracking system monitors all your upcoming deadlines and sends timely, context-aware reminders. The system prioritises alerts based on assignment complexity and your current progress, ensuring you always stay ahead.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Visual countdown timers for all upcoming deadlines</li>
+                        <li><i class="fas fa-check-circle"></i> Priority-based colour coding (urgent, approaching, upcoming)</li>
+                        <li><i class="fas fa-check-circle"></i> Smart notifications that adapt to your study pace</li>
+                        <li><i class="fas fa-check-circle"></i> Integration with university submission portals</li>
+                        <li><i class="fas fa-check-circle"></i> Automatic workload redistribution when deadlines overlap</li>
+                    </ul>
+                    <a href="pricing.html" class="btn btn-primary">Get Started <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-detail-visual">
+                    <div class="feature-mockup">
+                        <div class="mockup-header">
+                            <div class="preview-dots"><span></span><span></span><span></span></div>
+                            <span>Deadline Tracker</span>
+                        </div>
+                        <div class="deadline-mockup">
+                            <div class="deadline-item urgent">
+                                <div class="deadline-status"><i class="fas fa-exclamation-circle"></i></div>
+                                <div class="deadline-info">
+                                    <strong>Marketing Coursework</strong>
+                                    <span>Due in 2 days</span>
+                                </div>
+                                <div class="deadline-progress"><div class="progress-bar" style="width:85%"></div></div>
+                            </div>
+                            <div class="deadline-item approaching">
+                                <div class="deadline-status"><i class="fas fa-clock"></i></div>
+                                <div class="deadline-info">
+                                    <strong>Python Assignment</strong>
+                                    <span>Due in 5 days</span>
+                                </div>
+                                <div class="deadline-progress"><div class="progress-bar" style="width:45%"></div></div>
+                            </div>
+                            <div class="deadline-item upcoming">
+                                <div class="deadline-status"><i class="fas fa-calendar"></i></div>
+                                <div class="deadline-info">
+                                    <strong>Database Project</strong>
+                                    <span>Due in 12 days</span>
+                                </div>
+                                <div class="deadline-progress"><div class="progress-bar" style="width:20%"></div></div>
+                            </div>
+                            <div class="deadline-item upcoming">
+                                <div class="deadline-status"><i class="fas fa-calendar"></i></div>
+                                <div class="deadline-info">
+                                    <strong>FYP Presentation</strong>
+                                    <span>Due in 18 days</span>
+                                </div>
+                                <div class="deadline-progress"><div class="progress-bar" style="width:10%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature 3: Revision Plans -->
+    <section class="feature-detail" id="revision">
+        <div class="container">
+            <div class="feature-detail-grid">
+                <div class="feature-detail-content">
+                    <div class="feature-icon-large icon-purple">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h2>Adaptive Revision Recommendations</h2>
+                    <p>SmartStudy AI goes beyond simple scheduling by analysing your study patterns, quiz results, and self-assessments to create personalised revision strategies. The AI identifies weak areas and allocates additional study time where it matters most, helping you prepare effectively for examinations.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Spaced repetition algorithms for long-term retention</li>
+                        <li><i class="fas fa-check-circle"></i> Identifies knowledge gaps based on performance data</li>
+                        <li><i class="fas fa-check-circle"></i> Suggests optimal revision techniques per subject</li>
+                        <li><i class="fas fa-check-circle"></i> Adapts revision intensity as exams approach</li>
+                        <li><i class="fas fa-check-circle"></i> Tracks confidence levels across all modules</li>
+                    </ul>
+                    <a href="pricing.html" class="btn btn-primary">Start Revising Smarter <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-detail-visual">
+                    <div class="feature-mockup">
+                        <div class="mockup-header">
+                            <div class="preview-dots"><span></span><span></span><span></span></div>
+                            <span>Revision Planner</span>
+                        </div>
+                        <div class="revision-mockup">
+                            <div class="revision-subject">
+                                <div class="subject-name">Digital Marketing</div>
+                                <div class="confidence-bar"><div class="confidence-fill high" style="width:82%"></div></div>
+                                <span class="confidence-label">82% confident</span>
+                            </div>
+                            <div class="revision-subject">
+                                <div class="subject-name">Python Programming</div>
+                                <div class="confidence-bar"><div class="confidence-fill medium" style="width:65%"></div></div>
+                                <span class="confidence-label">65% confident</span>
+                            </div>
+                            <div class="revision-subject">
+                                <div class="subject-name">Database Systems</div>
+                                <div class="confidence-bar"><div class="confidence-fill low" style="width:40%"></div></div>
+                                <span class="confidence-label">40% confident</span>
+                            </div>
+                            <div class="ai-suggestion">
+                                <i class="fas fa-robot"></i>
+                                <p><strong>AI Suggestion:</strong> Focus 60% of revision time on Database Systems this week. Try practice queries and schema design exercises.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature 4: Analytics -->
+    <section class="feature-detail feature-alt" id="analytics">
+        <div class="container">
+            <div class="feature-detail-grid reverse">
+                <div class="feature-detail-content">
+                    <div class="feature-icon-large icon-orange">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h2>Performance Analytics Dashboard</h2>
+                    <p>Gain deep insights into your study habits with SmartStudy AI's comprehensive analytics dashboard. Track study hours, productivity patterns, task completion rates, and academic progress over time. Data-driven insights help you understand what works and continuously improve your approach to studying.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Weekly and monthly study hour tracking</li>
+                        <li><i class="fas fa-check-circle"></i> Productivity score based on focus and completion rates</li>
+                        <li><i class="fas fa-check-circle"></i> Visual progress charts and trend analysis</li>
+                        <li><i class="fas fa-check-circle"></i> Subject-wise time allocation breakdowns</li>
+                        <li><i class="fas fa-check-circle"></i> Personalised improvement recommendations</li>
+                    </ul>
+                    <a href="pricing.html" class="btn btn-primary">View Your Analytics <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-detail-visual">
+                    <div class="feature-mockup">
+                        <div class="mockup-header">
+                            <div class="preview-dots"><span></span><span></span><span></span></div>
+                            <span>Analytics Dashboard</span>
+                        </div>
+                        <div class="analytics-mockup">
+                            <div class="analytics-stat-row">
+                                <div class="analytics-stat">
+                                    <span class="analytics-number">32.5h</span>
+                                    <span class="analytics-label">Study This Week</span>
+                                </div>
+                                <div class="analytics-stat">
+                                    <span class="analytics-number">87%</span>
+                                    <span class="analytics-label">Productivity Score</span>
+                                </div>
+                            </div>
+                            <div class="chart-mockup">
+                                <div class="chart-bars">
+                                    <div class="chart-bar-group">
+                                        <div class="chart-bar" style="height:60%"></div>
+                                        <span>Mon</span>
+                                    </div>
+                                    <div class="chart-bar-group">
+                                        <div class="chart-bar" style="height:85%"></div>
+                                        <span>Tue</span>
+                                    </div>
+                                    <div class="chart-bar-group">
+                                        <div class="chart-bar" style="height:45%"></div>
+                                        <span>Wed</span>
+                                    </div>
+                                    <div class="chart-bar-group">
+                                        <div class="chart-bar" style="height:90%"></div>
+                                        <span>Thu</span>
+                                    </div>
+                                    <div class="chart-bar-group">
+                                        <div class="chart-bar" style="height:70%"></div>
+                                        <span>Fri</span>
+                                    </div>
+                                    <div class="chart-bar-group">
+                                        <div class="chart-bar" style="height:30%"></div>
+                                        <span>Sat</span>
+                                    </div>
+                                    <div class="chart-bar-group">
+                                        <div class="chart-bar" style="height:20%"></div>
+                                        <span>Sun</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Features -->
+    <section class="additional-features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">And More</span>
+                <h2>Additional Features to <span class="gradient-text">Boost Productivity</span></h2>
+            </div>
+            <div class="additional-grid">
+                <div class="additional-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>Mobile Friendly</h4>
+                    <p>Access your study plan anywhere, anytime from any device.</p>
+                </div>
+                <div class="additional-card">
+                    <i class="fas fa-sync-alt"></i>
+                    <h4>Real-Time Sync</h4>
+                    <p>Changes sync instantly across all your devices.</p>
+                </div>
+                <div class="additional-card">
+                    <i class="fas fa-users"></i>
+                    <h4>Study Groups</h4>
+                    <p>Create shared study plans with classmates and friends.</p>
+                </div>
+                <div class="additional-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Privacy First</h4>
+                    <p>Your academic data is encrypted and never shared.</p>
+                </div>
+                <div class="additional-card">
+                    <i class="fas fa-palette"></i>
+                    <h4>Custom Themes</h4>
+                    <p>Personalise your dashboard with colours and layouts.</p>
+                </div>
+                <div class="additional-card">
+                    <i class="fas fa-headphones-alt"></i>
+                    <h4>Focus Mode</h4>
+                    <p>Built-in Pomodoro timer with ambient study sounds.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Study Routine?</h2>
+                <p>Join SmartStudy AI today and experience the difference AI-powered planning makes to your academic success.</p>
+                <a href="pricing.html" class="btn btn-white btn-large">
+                    <i class="fas fa-bolt"></i>
+                    Get Your Student Discount
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <div class="logo-icon"><i class="fas fa-brain"></i></div>
+                        <span>SmartStudy <span class="logo-ai">AI</span></span>
+                    </a>
+                    <p>AI-powered study planning for university students. Plan smarter, study better, stress less.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Blog & Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="blog.html">Study Tips</a></li>
+                        <li><a href="blog.html">Productivity Guides</a></li>
+                        <li><a href="features.html">AI Features</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeUx6jCfvq1hxjlofkvSLbn2C_xbASTRZafX1INeWL7WAZf3w/viewform" target="_blank" rel="noopener noreferrer">Student Discount Form</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>External Links</h4>
+                    <ul>
+                        <li><a href="https://www.westminster.ac.uk" target="_blank" rel="noopener noreferrer">University of Westminster</a></li>
+                        <li><a href="https://www.iit.ac.lk" target="_blank" rel="noopener noreferrer">IIT Sri Lanka</a></li>
+                        <li><a href="https://edu.google.com" target="_blank" rel="noopener noreferrer">Google for Education</a></li>
+                        <li><a href="https://www.studyinternational.com" target="_blank" rel="noopener noreferrer">Study International</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SmartStudy AI. All rights reserved. | Developed for 6MARK027C Digital Marketing Coursework</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
