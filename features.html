@@ -417,5 +417,38 @@
     </footer>
 
     <script src="script.js"></script>
+
+<!-- Page Updated Info Button -->
+<div class="update-info-container">
+    <button id="updateInfoBtn" class="update-info-btn">
+        <i class="fas fa-info"></i>
+    </button>
+</div>
+
+<!-- Update Message -->
+<div id="updateMessage" class="update-message">
+    <i class="fas fa-info-circle"></i>
+    <span>Page updated <span id="updateDate"></span></span>
+</div>
+
+<script>
+const updateBtn = document.getElementById("updateInfoBtn");
+const updateMessage = document.getElementById("updateMessage");
+
+const date = new Date(document.lastModified);
+
+const formattedDate = date.toLocaleDateString("en-US", {
+  month: "short",
+  day: "numeric",
+  year: "numeric"
+});
+
+document.getElementById("updateDate").textContent = formattedDate;
+
+updateBtn.onclick = function(){
+    updateMessage.classList.toggle("show-update-message");
+};
+</script>
+
 </body>
 </html>
